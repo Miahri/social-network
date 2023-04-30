@@ -1,20 +1,28 @@
 import React from 'react';
+import styles from './Header.module.css'
 
 const Header = () => {
     return (
-        <div>
-            <img src="#" alt="logo"/>
-            <input type="text"/>
-            <button>Home</button>
-            <button>Stories</button>
-            <button>Videos</button>
-            <button>Group</button>
-            <button>Shop</button>
-            <button>Notifications</button>
-            <button>Chats</button>
-            <button>Settings</button>
-            <button>Profile</button>
-        </div>
+        <header className="header">
+            <div className={styles.rightHeader}>
+                <img src="" alt="logo"/>
+                <span>Sociala</span>
+            </div>
+            <div className={styles.centerHeader}>
+                <input type="text" placeholder='Start typing to search..'/>
+                <button>H</button>
+                <button>S</button>
+                <button>V</button>
+                <button>G</button>
+                <button>SH</button>
+            </div>
+            <div className={styles.leftHeader}>
+                <button>N</button>
+                <button>M</button>
+                <button>Set</button>
+                <button>Acc</button>
+            </div>
+        </header>
     );
 };
 

@@ -1,11 +1,38 @@
-.logo {
-
+.rightHeader {
+    width: 20%;
+    display: flex;
+    align-items: center;
 }
 
-.search {
-
+.rightHeader img {
+    padding: 0 25px;
+    box-sizing: border-box;
 }
 
-.iconBtn {
+.centerHeader {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
 
+.centerHeader input {
+    resize: both;
+    width: 350px;
+    height: 50px;
+    margin: 0 20px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.leftHeader {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    margin-right: 25px;
+    box-sizing: border-box;
 }
